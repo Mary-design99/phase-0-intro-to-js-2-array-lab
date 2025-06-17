@@ -37,7 +37,7 @@ beforeEach(function () {
 });
 ```
 
-What this code does is _reset_ the array to its original contents before each
+What this code does is _reset_ the array to its original contents before each 
 test is run. The reason we need to do this is because some of your functions
 will be _destructive_ — they will change the original `cats` array. This
 is a problem because it means the input to the remaining functions will be
